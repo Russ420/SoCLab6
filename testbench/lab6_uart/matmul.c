@@ -1,5 +1,6 @@
 #include "matmul.h"
-
+//#include <stdio.h>
+//int* matmul()
 int* __attribute__ ( ( section ( ".mprjram" ) ) ) matmul()
 {
 	int i=0;
@@ -18,3 +19,11 @@ int* __attribute__ ( ( section ( ".mprjram" ) ) ) matmul()
 	}
 	return result;
 }
+
+//void main(void){
+//	int* output;
+//	output = matmul();
+//	for(int i=0;i<SIZE*SIZE;i=i+1){
+//		printf("%x, %d\n", output[i], output[i]);
+//	}
+//}

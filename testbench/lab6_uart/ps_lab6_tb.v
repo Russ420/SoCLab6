@@ -290,7 +290,7 @@ module uart_tb;
 		//wait(checkbits == 16'hAB61);
 		//$display("QS Test passed");
 		
-		# 10_00000
+		# 100_00000
 		$display("\nTest Passed");
 		$finish;
 	end

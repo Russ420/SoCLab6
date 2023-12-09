@@ -149,122 +149,115 @@ void main()
 		user_irq_0_ev_enable_write(1);	
     #endif
 	
+	int k = 550000; 
+	
 	int* tmp;
 
 	// fir
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	tmp = fir();
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *tmp << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+1) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+2) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+3) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+4) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+5) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+6) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+7) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+8) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+9) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+10) << 16;	
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = 0xAB610000;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 	///// fir end /////
 	   
 	///// matmul start /////
 	reg_mprj_datal = 0xAB600000;
-	for(int i=0;i<1000;i++);
+	for(int i=0;i<k;i++);
 
 	tmp = matmul();
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *tmp << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+1) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+2) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+3) << 16;	
-	for(int i=0;i<50000;i++);
-
-	reg_mprj_datal = *(tmp+9) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = 0xAB610000;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 	//// matmul end /////
 
 	///// qs start /////
 	reg_mprj_datal = 0xAB600000;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	tmp = qsort();
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *tmp << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+1) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+2) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+3) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+4) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+5) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+6) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+7) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+8) << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = *(tmp+9) << 16;	
-	for(int i=0;i<50000;i++);
-
-	reg_mprj_datal = *tmp << 16;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 
 	reg_mprj_datal = 0xAB610000;
-	for(int i=0;i<50000;i++);
-
-	reg_mprj_datal = 0xAB610000;
-	for(int i=0;i<50000;i++);
+	for(int i=0;i<k;i++);
 	///// qs end /////
     
 

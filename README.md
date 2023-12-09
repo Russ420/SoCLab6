@@ -1,38 +1,20 @@
 # WorkLoad Optimize SOC (WLOS) Baseline
 
-### Simulation for matrix multiplication
+### Simulation WLOS firmware
 ```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_mm
+cd ./lab-wlos_baseline/testbench/lab6_uart
 source run_clean
 source run_sim
 ```
 
-### Simulation for FIR
+### Generate HEX for PYNQ
+It is not recommended to run wave simulation. We use lots of nops in order to solve the issue[1].
+[1]https://github.com/bol-edu/HLS-SOC-Discussions/discussions/175
 ```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_fir
+cd ./lab-wlos_baseline/testbench/lab6_uart
 source run_clean
-source run_sim
+source ps_run_sim_v1
 ```
 
-### Simulation for qsort
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_qs
-source run_clean
-source run_sim
-```
-
-### Simulation for uart
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/uart
-source run_clean
-source run_sim
-```
-
-## Verification with Vivado
-### Synthesis and Generate bitstream
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/vivado
-source run_vivado
-```
 
 
