@@ -1,0 +1,5 @@
+# remove all vcd dump
+testbench/uart/uart.vcd
+testbench/counter_la_qs/counter_la_qs.vcd
+testbench/lab6_uart/lab6.vcd
+testbench/counter_la_fir/counter_la_fir.vcd

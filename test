@@ -1,0 +1,8 @@
+./testbench/uart/uart.vcd
+./testbench/uart
+./testbench/counter_la_qs/counter_la_qs.vcd
+./testbench/counter_la_qs
+./testbench/lab6_uart/lab6.vcd
+./testbench/lab6_uart
+./testbench/counter_la_fir/counter_la_fir.vcd
+./testbench/counter_la_fir

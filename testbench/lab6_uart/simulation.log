@@ -1,0 +1,11 @@
+Reading lab6.hex
+lab6.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+VCD info: dumpfile lab6.vcd opened for output.
+Test Started
+
+FIR Test started at              2532763 ns
+** VVP Stop(0) **
+** Flushing output streams.
+** Current simulation time is 82006687500 ticks.
+** Continue **
